@@ -16,10 +16,32 @@
     <Filter Include="源文件\重建二叉树">
       <UniqueIdentifier>{2d4c7574-bd61-4601-8877-b2b2f084347e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\位运算">
+      <UniqueIdentifier>{90df2c3f-fb12-4371-8862-4bbc063ed4a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\字符数组">
+      <UniqueIdentifier>{3e9e12d6-0038-4f68-8f32-09c65f497b34}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="重建二叉树cpp.cpp">
       <Filter>源文件\重建二叉树</Filter>
     </ClCompile>
+    <ClCompile Include="二进制中1的个数.cpp">
+      <Filter>源文件\位运算</Filter>
+    </ClCompile>
+    <ClCompile Include="打印1到最大的n位数.cpp">
+      <Filter>源文件\字符数组</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="algorithm.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
